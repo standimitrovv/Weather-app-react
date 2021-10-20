@@ -1,6 +1,6 @@
 # README
 
-Hey there, this is a quick weather app project, built in 4 hours with React, Tailwind CSS and a bit of MUI. Just wanted to practice Tailwind.
+Hey there, this is a quick weather app project, built in 4 hours with React, Tailwind CSS and a bit of MUI. Just wanted to practice Tailwind. Fully responsive.
 
 ## How to run it?
 
