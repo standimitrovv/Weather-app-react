@@ -13,7 +13,7 @@ const Header = (props) => {
   };
 
   return (
-    <form className='flex flex-col items-center ' onSubmit={submitFormHandler}>
+    <form className='flex flex-col items-center' onSubmit={submitFormHandler}>
       <h1 className='text-3xl my-5 font-semibold'>Weather App</h1>
       <div className='flex justify-center relative '>
         <div className='flex items-center pl-2 w-1/6 h-full inset-x-0 rounded-xl absolute pointer-events-none text-black'>

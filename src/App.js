@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div className='bg-gray-800 h-full sm:h-full    text-white '>
+    <div className='bg-gray-800 min-h-screen sm:min-h-screen text-white '>
       <Header getCityData={saveCityHandler} />
       <Items enteredCity={city} />
     </div>
