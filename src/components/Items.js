@@ -11,7 +11,7 @@ const Items = ({ enteredCity }) => {
     const fetching = async () => {
       try {
         if (enteredCity !== null) {
-          const apiKey = '8c4943d6183e3f53e8a99d9789abf373';
+          const apiKey = process.env.REACT_APP_API_KEY;
           const url = `https://api.openweathermap.org/data/2.5/weather?q=${enteredCity}&appid=${apiKey}&units=metric`;
           const res = await fetch(url);
           if (!res.ok) throw new Error('City not found');
